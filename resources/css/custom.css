@@ -1,0 +1,59 @@
+/* public/css/custom.css */
+.table {
+    font-size: 11px; /* Reduce el tamaño de la fuente */
+    padding: 6px; /* Reduce el padding */
+}
+
+.table th, .table td {
+    padding: 5px; /* Reduce el padding de las celdas */
+}
+
+.table th {
+    font-weight: bold; /* Mantén el texto en negrita para los encabezados */
+}
+
+.select2-container .select2-selection--single {
+    height: 40px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    line-height: 26px;
+    padding-left: 12px;
+}
+.select2-container .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+    right: 10px;
+}
+
+.transition-transform {
+    transition: transform 0.3s ease-in-out;
+}
+
+.-translate-x-full {
+    transform: translateX(-100%);
+}
+
+.translate-x-0 {
+    transform: translateX(0);
+}
+
+/* Si la línea gris es un borde */
+.table-borderless {
+    border: none;
+}
+
+/* Si la línea gris es un fondo */
+.table-no-background {
+    background-color: transparent;
+}
+
+tr:hover {
+    background-color: #f3f4f6;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
